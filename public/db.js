@@ -1,6 +1,3 @@
-const { get } = require("mongoose");
-const { response } = require("express");
-
 const request = indexedDB.open("budget", 1);
 
 function checkDatabase() {
