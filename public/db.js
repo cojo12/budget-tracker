@@ -1,5 +1,4 @@
 const request = indexedDB.open("budget", 1);
-let db;
 
 function checkDatabase() {
   const transaction = db.transaction(["pending"], "readwrite");
